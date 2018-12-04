@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		822F2DB321B6B6B200C10192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F2DB221B6B6B200C10192 /* AppDelegate.swift */; };
+		822F2DB521B6B6B200C10192 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F2DB421B6B6B200C10192 /* ViewController.swift */; };
+		822F2DB821B6B6B200C10192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822F2DB621B6B6B200C10192 /* Main.storyboard */; };
+		822F2DBA21B6B6B200C10192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822F2DB921B6B6B200C10192 /* Assets.xcassets */; };
+		822F2DBD21B6B6B200C10192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822F2DBB21B6B6B200C10192 /* LaunchScreen.storyboard */; };
+		822F2DC821B6B6B200C10192 /* Dolphin_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F2DC721B6B6B200C10192 /* Dolphin_GameTests.swift */; };
+		822F2DD321B6B6B200C10192 /* Dolphin_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F2DD221B6B6B200C10192 /* Dolphin_GameUITests.swift */; };
+		82CEA82821B6BBBC0000B00C /* Dolphin_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CEA82721B6BBBC0000B00C /* Dolphin_1.png */; };
+		82CEA82A21B6BC040000B00C /* Dolphin_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CEA82921B6BC040000B00C /* Dolphin_2.png */; };
+		82CEA83021B6BC710000B00C /* Dolphin_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CEA82C21B6BC710000B00C /* Dolphin_3.png */; };
+		82CEA83121B6BC710000B00C /* Dolphin_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CEA82D21B6BC710000B00C /* Dolphin_4.png */; };
+		82CEA83221B6BC710000B00C /* Dolphin_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CEA82E21B6BC710000B00C /* Dolphin_5.png */; };
+		82CEA83321B6BC710000B00C /* Dolphin_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CEA82F21B6BC710000B00C /* Dolphin_6.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		822F2DC421B6B6B200C10192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822F2DA721B6B6B200C10192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822F2DAE21B6B6B200C10192;
+			remoteInfo = Dolphin_Game;
+		};
+		822F2DCF21B6B6B200C10192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822F2DA721B6B6B200C10192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822F2DAE21B6B6B200C10192;
+			remoteInfo = Dolphin_Game;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		822F2DAF21B6B6B200C10192 /* Dolphin_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dolphin_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		822F2DB221B6B6B200C10192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		822F2DB421B6B6B200C10192 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		822F2DB721B6B6B200C10192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		822F2DB921B6B6B200C10192 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		822F2DBC21B6B6B200C10192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		822F2DBE21B6B6B200C10192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822F2DC321B6B6B200C10192 /* Dolphin_GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dolphin_GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		822F2DC721B6B6B200C10192 /* Dolphin_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dolphin_GameTests.swift; sourceTree = "<group>"; };
+		822F2DC921B6B6B200C10192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822F2DCE21B6B6B200C10192 /* Dolphin_GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dolphin_GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		822F2DD221B6B6B200C10192 /* Dolphin_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dolphin_GameUITests.swift; sourceTree = "<group>"; };
+		822F2DD421B6B6B200C10192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CEA82721B6BBBC0000B00C /* Dolphin_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dolphin_1.png; path = "Images PNG/Dolphin_1.png"; sourceTree = "<group>"; };
+		82CEA82921B6BC040000B00C /* Dolphin_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dolphin_2.png; path = "Images PNG/Dolphin_2.png"; sourceTree = "<group>"; };
+		82CEA82C21B6BC710000B00C /* Dolphin_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dolphin_3.png; path = Dolphin_Game/Dolphin_3.png; sourceTree = "<group>"; };
+		82CEA82D21B6BC710000B00C /* Dolphin_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dolphin_4.png; path = Dolphin_Game/Dolphin_4.png; sourceTree = "<group>"; };
+		82CEA82E21B6BC710000B00C /* Dolphin_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dolphin_5.png; path = Dolphin_Game/Dolphin_5.png; sourceTree = "<group>"; };
+		82CEA82F21B6BC710000B00C /* Dolphin_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dolphin_6.png; path = Dolphin_Game/Dolphin_6.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		822F2DAC21B6B6B200C10192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822F2DC021B6B6B200C10192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822F2DCB21B6B6B200C10192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		822F2DA621B6B6B200C10192 = {
+			isa = PBXGroup;
+			children = (
+				82CEA82B21B6BC0B0000B00C /* Images */,
+				822F2DB121B6B6B200C10192 /* Dolphin_Game */,
+				822F2DC621B6B6B200C10192 /* Dolphin_GameTests */,
+				822F2DD121B6B6B200C10192 /* Dolphin_GameUITests */,
+				822F2DB021B6B6B200C10192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		822F2DB021B6B6B200C10192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				822F2DAF21B6B6B200C10192 /* Dolphin_Game.app */,
+				822F2DC321B6B6B200C10192 /* Dolphin_GameTests.xctest */,
+				822F2DCE21B6B6B200C10192 /* Dolphin_GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		822F2DB121B6B6B200C10192 /* Dolphin_Game */ = {
+			isa = PBXGroup;
+			children = (
+				822F2DB221B6B6B200C10192 /* AppDelegate.swift */,
+				822F2DB421B6B6B200C10192 /* ViewController.swift */,
+				822F2DB621B6B6B200C10192 /* Main.storyboard */,
+				822F2DB921B6B6B200C10192 /* Assets.xcassets */,
+				822F2DBB21B6B6B200C10192 /* LaunchScreen.storyboard */,
+				822F2DBE21B6B6B200C10192 /* Info.plist */,
+			);
+			path = Dolphin_Game;
+			sourceTree = "<group>";
+		};
+		822F2DC621B6B6B200C10192 /* Dolphin_GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				822F2DC721B6B6B200C10192 /* Dolphin_GameTests.swift */,
+				822F2DC921B6B6B200C10192 /* Info.plist */,
+			);
+			path = Dolphin_GameTests;
+			sourceTree = "<group>";
+		};
+		822F2DD121B6B6B200C10192 /* Dolphin_GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				822F2DD221B6B6B200C10192 /* Dolphin_GameUITests.swift */,
+				822F2DD421B6B6B200C10192 /* Info.plist */,
+			);
+			path = Dolphin_GameUITests;
+			sourceTree = "<group>";
+		};
+		82CEA82B21B6BC0B0000B00C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				82CEA82721B6BBBC0000B00C /* Dolphin_1.png */,
+				82CEA82921B6BC040000B00C /* Dolphin_2.png */,
+				82CEA82C21B6BC710000B00C /* Dolphin_3.png */,
+				82CEA82D21B6BC710000B00C /* Dolphin_4.png */,
+				82CEA82E21B6BC710000B00C /* Dolphin_5.png */,
+				82CEA82F21B6BC710000B00C /* Dolphin_6.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		822F2DAE21B6B6B200C10192 /* Dolphin_Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822F2DD721B6B6B200C10192 /* Build configuration list for PBXNativeTarget "Dolphin_Game" */;
+			buildPhases = (
+				822F2DAB21B6B6B200C10192 /* Sources */,
+				822F2DAC21B6B6B200C10192 /* Frameworks */,
+				822F2DAD21B6B6B200C10192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dolphin_Game;
+			productName = Dolphin_Game;
+			productReference = 822F2DAF21B6B6B200C10192 /* Dolphin_Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		822F2DC221B6B6B200C10192 /* Dolphin_GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822F2DDA21B6B6B200C10192 /* Build configuration list for PBXNativeTarget "Dolphin_GameTests" */;
+			buildPhases = (
+				822F2DBF21B6B6B200C10192 /* Sources */,
+				822F2DC021B6B6B200C10192 /* Frameworks */,
+				822F2DC121B6B6B200C10192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822F2DC521B6B6B200C10192 /* PBXTargetDependency */,
+			);
+			name = Dolphin_GameTests;
+			productName = Dolphin_GameTests;
+			productReference = 822F2DC321B6B6B200C10192 /* Dolphin_GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		822F2DCD21B6B6B200C10192 /* Dolphin_GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822F2DDD21B6B6B200C10192 /* Build configuration list for PBXNativeTarget "Dolphin_GameUITests" */;
+			buildPhases = (
+				822F2DCA21B6B6B200C10192 /* Sources */,
+				822F2DCB21B6B6B200C10192 /* Frameworks */,
+				822F2DCC21B6B6B200C10192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822F2DD021B6B6B200C10192 /* PBXTargetDependency */,
+			);
+			name = Dolphin_GameUITests;
+			productName = Dolphin_GameUITests;
+			productReference = 822F2DCE21B6B6B200C10192 /* Dolphin_GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		822F2DA721B6B6B200C10192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CSStestuser;
+				TargetAttributes = {
+					822F2DAE21B6B6B200C10192 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					822F2DC221B6B6B200C10192 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 822F2DAE21B6B6B200C10192;
+					};
+					822F2DCD21B6B6B200C10192 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 822F2DAE21B6B6B200C10192;
+					};
+				};
+			};
+			buildConfigurationList = 822F2DAA21B6B6B200C10192 /* Build configuration list for PBXProject "Dolphin_Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 822F2DA621B6B6B200C10192;
+			productRefGroup = 822F2DB021B6B6B200C10192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				822F2DAE21B6B6B200C10192 /* Dolphin_Game */,
+				822F2DC221B6B6B200C10192 /* Dolphin_GameTests */,
+				822F2DCD21B6B6B200C10192 /* Dolphin_GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		822F2DAD21B6B6B200C10192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CEA83021B6BC710000B00C /* Dolphin_3.png in Resources */,
+				822F2DBD21B6B6B200C10192 /* LaunchScreen.storyboard in Resources */,
+				82CEA83221B6BC710000B00C /* Dolphin_5.png in Resources */,
+				822F2DBA21B6B6B200C10192 /* Assets.xcassets in Resources */,
+				82CEA82821B6BBBC0000B00C /* Dolphin_1.png in Resources */,
+				82CEA83121B6BC710000B00C /* Dolphin_4.png in Resources */,
+				82CEA82A21B6BC040000B00C /* Dolphin_2.png in Resources */,
+				822F2DB821B6B6B200C10192 /* Main.storyboard in Resources */,
+				82CEA83321B6BC710000B00C /* Dolphin_6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822F2DC121B6B6B200C10192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822F2DCC21B6B6B200C10192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		822F2DAB21B6B6B200C10192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822F2DB521B6B6B200C10192 /* ViewController.swift in Sources */,
+				822F2DB321B6B6B200C10192 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822F2DBF21B6B6B200C10192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822F2DC821B6B6B200C10192 /* Dolphin_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822F2DCA21B6B6B200C10192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822F2DD321B6B6B200C10192 /* Dolphin_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		822F2DC521B6B6B200C10192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 822F2DAE21B6B6B200C10192 /* Dolphin_Game */;
+			targetProxy = 822F2DC421B6B6B200C10192 /* PBXContainerItemProxy */;
+		};
+		822F2DD021B6B6B200C10192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 822F2DAE21B6B6B200C10192 /* Dolphin_Game */;
+			targetProxy = 822F2DCF21B6B6B200C10192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		822F2DB621B6B6B200C10192 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822F2DB721B6B6B200C10192 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		822F2DBB21B6B6B200C10192 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822F2DBC21B6B6B200C10192 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		822F2DD521B6B6B200C10192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		822F2DD621B6B6B200C10192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		822F2DD821B6B6B200C10192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dolphin_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		822F2DD921B6B6B200C10192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dolphin_Game/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		822F2DDB21B6B6B200C10192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dolphin_GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dolphin_Game.app/Dolphin_Game";
+			};
+			name = Debug;
+		};
+		822F2DDC21B6B6B200C10192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Dolphin_GameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dolphin_Game.app/Dolphin_Game";
+			};
+			name = Release;
+		};
+		822F2DDE21B6B6B200C10192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Dolphin_GameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dolphin_Game;
+			};
+			name = Debug;
+		};
+		822F2DDF21B6B6B200C10192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Dolphin_GameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dolphin-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dolphin_Game;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		822F2DAA21B6B6B200C10192 /* Build configuration list for PBXProject "Dolphin_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822F2DD521B6B6B200C10192 /* Debug */,
+				822F2DD621B6B6B200C10192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822F2DD721B6B6B200C10192 /* Build configuration list for PBXNativeTarget "Dolphin_Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822F2DD821B6B6B200C10192 /* Debug */,
+				822F2DD921B6B6B200C10192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822F2DDA21B6B6B200C10192 /* Build configuration list for PBXNativeTarget "Dolphin_GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822F2DDB21B6B6B200C10192 /* Debug */,
+				822F2DDC21B6B6B200C10192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822F2DDD21B6B6B200C10192 /* Build configuration list for PBXNativeTarget "Dolphin_GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822F2DDE21B6B6B200C10192 /* Debug */,
+				822F2DDF21B6B6B200C10192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 822F2DA721B6B6B200C10192 /* Project object */;
+}
